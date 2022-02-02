@@ -68,7 +68,7 @@ The obvious ways of getting a URL to files on GitHub produce a URL that will not
 
 base url: `https://raw.githubusercontent.com/nubank/juntos-separados/main/`
 your file: `images/an_image.jpg`
-full URL: #{0|image|https://raw.githubusercontent.com/nubank/juntos-separados/main/images/an_image.jpg}
+full URL: `#{0|image|https://raw.githubusercontent.com/nubank/juntos-separados/main/images/an_image.jpg}`
 
 *Detail: It is possible to get a permalink URL for a file. This is a version-specific link so is impervious to changes in the file. This guarantees that even if somebody updates the file in the repository, existing messages will continue to get the original version. It seems a better plan to use the generic link so that, in the case there is a bad problem with a media file we need to fix, we can at least change the media file in the repo and that new media will be used in all content messages that reference it thereafter.
 
@@ -85,15 +85,23 @@ full URL: #{0|image|https://raw.githubusercontent.com/nubank/juntos-separados/ma
 In addition to embedding media in a message, it also works to simply include a URL in the text of a message. In this case we do not use token replacement, but just include the URL in the text of the message.  As seen in the sample below, WhatsApp detects the URL and handles such messages in a special way, including sort of a preview of what the URL references. The user can tap the URL to open the web site.
 
 # References
-[Guidance on WhatsApp Media Messages | Twilio](https://www.twilio.com/docs/whatsapp/guidance-whatsapp-media-messages)
-[Sending and Receiving Media with WhatsApp Messaging on Twilio – Twilio Support](https://support.twilio.com/hc/en-us/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio)
+* [Guidance on WhatsApp Media Messages | Twilio](https://www.twilio.com/docs/whatsapp/guidance-whatsapp-media-messages)
+* [Sending and Receiving Media with WhatsApp Messaging on Twilio – Twilio Support](https://support.twilio.com/hc/en-us/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio)
 
 # Sample screen shots
 
+# Message with image
+![Sreenshot 2](/test_files/screenshots/Screenshot_2.jpg)
+
+
+# Message with audio
+![Sreenshot 3](/test_files/screenshots/Screenshot_3.jpg)
+
+
+# Message with PDF
+![Sreenshot 4](/test_files/screenshots/Screenshot_4.jpg)
+
+
+# Message with simple URL (no Mercury token)
 ![Sreenshot 1](/test_files/screenshots/Screenshot_1.jpeg)
 
-![Sreenshot 2](/test_files/screenshots/Screenshot_2.jpeg)
-
-![Sreenshot 3](/test_files/screenshots/Screenshot_3.jpeg)
-
-![Sreenshot 4](/test_files/screenshots/Screenshot_4.jpeg)
