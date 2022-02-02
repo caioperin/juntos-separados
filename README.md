@@ -1,5 +1,3 @@
-*** Draft in progress ***
-
 # juntos-separados
 Conversations media - WhatsApp-compatible media used in customer-facing messages from the Conversations squad.
 
