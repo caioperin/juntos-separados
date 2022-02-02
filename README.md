@@ -90,18 +90,18 @@ In addition to embedding media in a message, it also works to simply include a U
 
 # Sample screen shots
 
-# Message with image
+## Message with image
 ![Sreenshot 2](/test_files/screenshots/Screenshot_2.jpg)
 
 
-# Message with audio
+## Message with audio
 ![Sreenshot 3](/test_files/screenshots/Screenshot_3.jpg)
 
 
-# Message with PDF
+## Message with PDF
 ![Sreenshot 4](/test_files/screenshots/Screenshot_4.jpg)
 
 
-# Message with simple URL (no Mercury token)
+## Message with simple URL (no Mercury token)
 ![Sreenshot 1](/test_files/screenshots/Screenshot_1.jpeg)
 
