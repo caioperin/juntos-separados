@@ -44,7 +44,7 @@ The way WhatsApp renders a message with media depends on the media type.
 * image: WhatsApp renders the message with the image at the top and the message text below it.
 * audio: WhatsApp renders an audio player widget with a play button. **Any text in the message body is stripped and not displayed**.
 * video: *unknown, probably similar to rendering audio*
-* pdf: WhatsApp renders a snapshot preview of the PDF file and a link to the file. User can open the full PDF by tapping.
+* pdf: WhatsApp renders a snapshot preview of the PDF file and a link to the file. User can open the full PDF by tapping. As with audio content, any message text will be discarded by WhatsApp.
 
 Some sample screenshots from testing are at the bottom of this readme.
 
