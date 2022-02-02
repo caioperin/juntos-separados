@@ -1,6 +1,8 @@
 # juntos-separados
 Conversations media - WhatsApp-compatible media used in customer-facing messages from the Conversations squad.
 
+Note: This readme is replicated at [Sending Media in Content Messages](https://nubank.atlassian.net/wiki/spaces/NuPI/pages/262490194514/Sending+Media+in+Content+Messages) for content creators who do not have Git access.
+
 # Important
 
 These files are used directly from this repository in production messages sent to Nubank customers.
