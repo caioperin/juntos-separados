@@ -5,6 +5,8 @@ Note: This readme is replicated at [Sending Media in Content Messages](https://n
 
 # Important
 
+**This is a public repository. All content, including this readme, can be viewed by anybody on GitHub.**
+
 These files are used directly from this repository in production messages sent to Nubank customers.
 
 * All content here must be considered approved for public use with Nubank customers.
